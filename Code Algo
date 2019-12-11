@@ -33,3 +33,5 @@ debut
 	result <-- somme/count
 	ecrire "moyenne=" , result 
 fin
+
+	---1.2
