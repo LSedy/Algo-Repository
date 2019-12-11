@@ -1,0 +1,35 @@
+Exercices algo
+
+--- 1.1.2
+
+debut
+	initialise choix "oui"
+	tant que choix vaut "oui"
+	ecrire 	"Entrer le premier nombre"
+	lire	 x
+	ecrire	"Entrer le second nombre"
+	lire	y
+	R <--	(x-y)/2
+	ecrire	"moyenne du premier nombre" ,x, "et du deuxième nombre" ,y, "est de" R
+	ecrire	"Souhaitez-vous faire un autre calcul? (oui/non)"
+	lire choix
+	fin tant que
+  
+  ---1.1.3
+   
+debut
+	caractere	answer
+	entier nbr - somme - count - i - x:=0	y:=0
+	reel	result
+	
+	tant que 
+	ecrire	"saisir un nombre"
+	lire	nbr
+	somme <-- somme + nbr
+	count <-- count +1
+	ecrire	"voulez vous saisir un autre nombre (O/N)"
+	lire	answer
+	fin tant que
+	result <-- somme/count
+	ecrire "moyenne=" , result 
+fin
